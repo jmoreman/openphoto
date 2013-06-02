@@ -145,7 +145,7 @@
       
       if((lat=this.model.get('latitude')) && (lng=this.model.get('longitude')) ){
         $mapEl = $($(this.el).find('.map')[0]);
-        $mapEl.html('<img src="/map/'+lat+'/'+lng+'/7/275x160/roadmap/map.png">');
+        $mapEl.html('<a href="http://maps.google.com/maps?q='+lat+','+lng+'"><img src="/map/'+lat+'/'+lng+'/7/275x160/roadmap/map.png"></a>');
       }
     }
   });
