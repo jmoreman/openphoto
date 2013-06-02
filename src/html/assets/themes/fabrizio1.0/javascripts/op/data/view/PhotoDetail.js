@@ -152,7 +152,7 @@
   
   op.ns('data.view').PhotoDetail = op.data.view.Editable.extend({
     
-    largePath : 'path870x870',
+    largePath : 'pathOriginal',
     thumbPath : 'path180x180xCR',
     _filter: location.pathname.replace('/p/', '/').replace('/photo/', '/').replace('/view', ''),
     
